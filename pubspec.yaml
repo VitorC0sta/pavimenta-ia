@@ -9,6 +9,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  geolocator: 14.1.1
+  path_provider: 2.1.5
+  permission_handler: 13.0.2
+  ultralytics_yolo: 0.6.15
+  wakelock_plus: 1.2.8
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +22,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/models/
